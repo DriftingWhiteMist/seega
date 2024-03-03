@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#board {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  aspect-ratio: 1 / 1;
+}
+
+.tile {
+  background-color: yellowgreen;
+  width: 20%;
+  font-size: 5em;
+  vertical-align: bottom;
+  aspect-ratio: 1 / 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#stage,
+#turn {
+  font-size: 60px;
+  display: inline;
+  white-space: pre;
+}
+
+
