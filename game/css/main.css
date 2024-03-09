@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2vw;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(50% + 2px);
+  max-width: 40vw;
+  aspect-ratio: 1 / 1;
+  border: 1px solid black;
+}
+
+#stage-and-turn {
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 4vw;
+  background-color: rgb(128, 172, 40);
+}
+
+#end-turn-btn {
+  margin-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 2vw;
+}
+
+.tile {
+  display: flex;
+  flex: 0 0 20%;
+  height: 20%;
+  border: 1px solid black;
+  background-color: yellowgreen;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  aspect-ratio: 1 / 1;
+}

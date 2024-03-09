@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 5vw;
+  background-color: rgb(37, 37, 129);
+  color: rgb(233, 233, 233);
+}
+
+#help-btn {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  height: 70%;
+  margin: 1%;
+  font-size: 1.5vw;
+  vertical-align: center;
+}
+
+#title {
+  font-size: 4vw;
+  margin: 0;
+  align-self: center;
+}

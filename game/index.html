@@ -5,22 +5,46 @@
   <title>Game</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <script type="module" src="js/index.js" defer></script>
 </head>
 
 <body>
-  <ul>
-    <li id="stage">Stage - Setup</li>
-    <li id="turn"> || Turn - X</li>
-    <li>
-      <textarea id="txtarea"></textarea>
-    </li>
-    <li>
-      <button id="add-piece">Add Piece</button>
-    </li>
-  </ul>
-  <div id="board"></div>
+  <header>
+    <p id="spacer"></p>
+    <p id="title">Seega - سيجة</p>
+    <button id="help-btn">?</button>
+  </header>
+  <div id="sidebar">
+    <p id="info-header">INFO</p>
+    <ul id="sidebar-info-container">
+      <li>
+        <p class="header" id="time-header">T<br>I<br>M<br>E</p>
+        <p class="content" id="time">00:00:00</p>
+      </li>
+      <li>
+        <p class="header" id="x-deaths-header"><s>X</s></p>
+        <p class="content" id="x-deaths">0</p>
+      </li>
+      <li>
+        <p class="header" id="o-deaths-header"><s>O</s></p>
+        <p class="content" id="o-deaths">0</p>
+      </li>
+      <li>
+        <p class="header" id="opponent-type-header">P<br>L<br>R<br><br>V<br>S</p>
+        <p class="content" id="opponent-type">Player</p>
+      </li>
+      <li>
+        <p class="header" id="made-by-header">M<br>A<br>D<br>E<br><br>B<br>Y</p>
+        <p class="content" id="made-by">Kareem</p>
+      </li>
+    </ul>
+  </div>
+  <main>
+    <p id="stage-and-turn">X - Setup</p>
+    <div id="board"></div>
+    <button id="end-turn-btn">END TURN</button>
+  </main>
 </body>
 
 </html>

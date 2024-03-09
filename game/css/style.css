@@ -1,0 +1,72 @@
+@import 'main.css';
+@import 'header.css';
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+s {
+  text-decoration: line-through darkred;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  width: 14vw;
+  background-color: rgb(37, 37, 129);
+  color: rgb(233, 233, 233);
+}
+
+#info-header {
+  font-size: 4.3vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  margin: 0;
+  align-self: center;
+  text-align: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+#sidebar-info-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 10%;
+  border-right: 3px solid black;
+  font-size: 2.1vw;
+  display: inline-block;
+  font-family: monospace;
+  margin: 0;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-right: 1vw;
+  padding-left: 0.5vw;
+}
+
+.content {
+  display: inline-block;
+  width: 80%;
+  margin: 0;
+  font-size: 3vw;
+  padding-left: 0.25vw;
+}
+
+li {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+li > * {
+  display: inline-block;
+}
